@@ -1,0 +1,13 @@
+Library/
+Temp/
+Logs/
+UserSettings/
+Builds/
+Obj/
+.vs/
+*.csproj
+*.sln
+*.slnx
+References/
+.env
+.env.*

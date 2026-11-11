@@ -1,0 +1,1471 @@
+fileFormatVersion: 2
+guid: 6b5fee582774d0345bf1fbbc205228ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1792176228784391764
+    second: XiaoyuePortrait_0
+  - first:
+      213: 1135957843038022766
+    second: XiaoyuePortrait_1
+  - first:
+      213: -7363626362179868184
+    second: XiaoyuePortrait_2
+  - first:
+      213: 3872725375733335020
+    second: XiaoyuePortrait_3
+  - first:
+      213: -5381751181520410059
+    second: XiaoyuePortrait_4
+  - first:
+      213: 6738847772079987836
+    second: XiaoyuePortrait_5
+  - first:
+      213: -8315683253036453237
+    second: XiaoyuePortrait_6
+  - first:
+      213: 3194906143947345072
+    second: XiaoyuePortrait_7
+  - first:
+      213: -2438115340484862310
+    second: XiaoyuePortrait_8
+  - first:
+      213: 1024972069762617516
+    second: XiaoyuePortrait_9
+  - first:
+      213: -2639677852484478641
+    second: XiaoyuePortrait_10
+  - first:
+      213: 7640603097532776600
+    second: XiaoyuePortrait_11
+  - first:
+      213: 7821194814515821868
+    second: XiaoyuePortrait_12
+  - first:
+      213: 3120311331716287670
+    second: XiaoyuePortrait_13
+  - first:
+      213: 8509453093419996299
+    second: XiaoyuePortrait_14
+  - first:
+      213: -63558312917664990
+    second: XiaoyuePortrait_15
+  - first:
+      213: 2883163925571358632
+    second: XiaoyuePortrait_16
+  - first:
+      213: 8101199456082328863
+    second: XiaoyuePortrait_17
+  - first:
+      213: -6592310569654874506
+    second: XiaoyuePortrait_18
+  - first:
+      213: 6062155402584912476
+    second: XiaoyuePortrait_19
+  - first:
+      213: 1043578289696836697
+    second: XiaoyuePortrait_20
+  - first:
+      213: 4575701855299884967
+    second: XiaoyuePortrait_21
+  - first:
+      213: 442931058245485630
+    second: XiaoyuePortrait_22
+  - first:
+      213: 956413562048112514
+    second: XiaoyuePortrait_23
+  - first:
+      213: 3874657856878471200
+    second: XiaoyuePortrait_24
+  - first:
+      213: 1221163318064018819
+    second: XiaoyuePortrait_25
+  - first:
+      213: 5088437340377541633
+    second: XiaoyuePortrait_26
+  - first:
+      213: 7122076860260033016
+    second: XiaoyuePortrait_27
+  - first:
+      213: 2252201743656969386
+    second: XiaoyuePortrait_28
+  - first:
+      213: -8980650978828384505
+    second: XiaoyuePortrait_29
+  - first:
+      213: 54877115426429917
+    second: XiaoyuePortrait_30
+  - first:
+      213: 6399589510745890161
+    second: XiaoyuePortrait_31
+  - first:
+      213: -2351760308460170305
+    second: XiaoyuePortrait_32
+  - first:
+      213: -6707262494882761461
+    second: XiaoyuePortrait_33
+  - first:
+      213: -6001900070086698207
+    second: XiaoyuePortrait_34
+  - first:
+      213: -8830342715635962994
+    second: XiaoyuePortrait_35
+  - first:
+      213: 956698075755645092
+    second: XiaoyuePortrait_36
+  - first:
+      213: 6866183852448943000
+    second: XiaoyuePortrait_37
+  - first:
+      213: -6862374535430521238
+    second: XiaoyuePortrait_38
+  - first:
+      213: 316912509784814330
+    second: XiaoyuePortrait_39
+  - first:
+      213: -7755092516928160034
+    second: XiaoyuePortrait_40
+  - first:
+      213: 4066896586882448286
+    second: XiaoyuePortrait_41
+  - first:
+      213: -4634281915995937483
+    second: XiaoyuePortrait_42
+  - first:
+      213: -1574012123889666008
+    second: XiaoyuePortrait_43
+  - first:
+      213: -6744027959765432170
+    second: XiaoyuePortrait_44
+  - first:
+      213: 7367877064611438602
+    second: XiaoyuePortrait_45
+  - first:
+      213: 1776416302714327946
+    second: XiaoyuePortrait_46
+  - first:
+      213: -7154548007418481748
+    second: XiaoyuePortrait_47
+  - first:
+      213: 430438339772151960
+    second: XiaoyuePortrait_48
+  - first:
+      213: 169864474490068382
+    second: XiaoyuePortrait_49
+  - first:
+      213: -3119717841317740780
+    second: XiaoyuePortrait_50
+  - first:
+      213: 6132964695934517454
+    second: XiaoyuePortrait_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: XiaoyuePortrait_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 598
+        width: 831
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456c793e8c61fd810800000000000000
+      internalID: 1792176228784391764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_1
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1219
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ca912c3abb3cf00800000000000000
+      internalID: 1135957843038022766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_2
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 582
+        width: 425
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9219776d42fc990800000000000000
+      internalID: -7363626362179868184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_3
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1229
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce30a3de53faeb530800000000000000
+      internalID: 3872725375733335020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_4
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1222
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53aefeb60dd2055b0800000000000000
+      internalID: -5381751181520410059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_5
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1221
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c92424852358d50800000000000000
+      internalID: 6738847772079987836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_6
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1046
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82f816c322c89c80800000000000000
+      internalID: -8315683253036453237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_7
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 669
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcc1b8e536965c20800000000000000
+      internalID: 3194906143947345072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_8
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 650
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e18f8f3031a2ed0800000000000000
+      internalID: -2438115340484862310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_9
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 634
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0d5eabaae693e00800000000000000
+      internalID: 1024972069762617516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_10
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 654
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4952319afafd5bd0800000000000000
+      internalID: -2639677852484478641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_11
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 654
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890c03a1900e80a60800000000000000
+      internalID: 7640603097532776600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 626
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2db75ece377a8c60800000000000000
+      internalID: 7821194814515821868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 642
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc4393cf929d4b20800000000000000
+      internalID: 3120311331716287670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 618
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84d522e086a71670800000000000000
+      internalID: 8509453093419996299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 624
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bf4081d023e1ff0800000000000000
+      internalID: -63558312917664990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_16
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 644
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afc6ec805e030820800000000000000
+      internalID: 2883163925571358632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_17
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 618
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1dff5abbfd3d6070800000000000000
+      internalID: 8101199456082328863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_18
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 644
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e0ba6e6786384a0800000000000000
+      internalID: -6592310569654874506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_19
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 630
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52f940583a112450800000000000000
+      internalID: 6062155402584912476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_20
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 636
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c80b4ece88b7e00800000000000000
+      internalID: 1043578289696836697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_21
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 618
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7de332898208f30800000000000000
+      internalID: 4575701855299884967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_22
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 604
+        width: 104
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34c5b2637b952600800000000000000
+      internalID: 442931058245485630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_23
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 646
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2876e30411dd54d00800000000000000
+      internalID: 956413562048112514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_24
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 624
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028ea61cacc85c530800000000000000
+      internalID: 3874657856878471200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 584
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38571f9519172f010800000000000000
+      internalID: 1221163318064018819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_26
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 618
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c69072dc2cd9640800000000000000
+      internalID: 5088437340377541633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_27
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 622
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f124d68b23b6d260800000000000000
+      internalID: 7122076860260033016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_28
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 624
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4603d9d8d614f10800000000000000
+      internalID: 2252201743656969386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_29
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 622
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7078b2b24815e5380800000000000000
+      internalID: -8980650978828384505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_30
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 638
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb5a4b1276f2c000800000000000000
+      internalID: 54877115426429917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_31
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 612
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d1358e0c8efc850800000000000000
+      internalID: 6399589510745890161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_32
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 612
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb35e59a57edc5fd0800000000000000
+      internalID: -2351760308460170305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_33
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 620
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0576392c440be2a0800000000000000
+      internalID: -6707262494882761461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_34
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 615
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b17198fa7f4bca0800000000000000
+      internalID: -6001900070086698207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_35
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 610
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b6f85d512547580800000000000000
+      internalID: -8830342715635962994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 835
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a807b2c4dfd64d00800000000000000
+      internalID: 956698075755645092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_37
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 601
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b0ebfc5d5994f50800000000000000
+      internalID: 6866183852448943000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_38
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 574
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e3afbe7b2f3c0a0800000000000000
+      internalID: -6862374535430521238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_39
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 602
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2f992af36e56400800000000000000
+      internalID: 316912509784814330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_40
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 596
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edef430b170606490800000000000000
+      internalID: -7755092516928160034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_41
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 530
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b706ff5e4807830800000000000000
+      internalID: 4066896586882448286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_42
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 590
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535ab00a629bfafb0800000000000000
+      internalID: -4634281915995937483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 6
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828f563105cf72ae0800000000000000
+      internalID: -1574012123889666008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_44
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 0
+        width: 426
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69801ee4d466862a0800000000000000
+      internalID: -6744027959765432170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 5
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00a9e05725ff3660800000000000000
+      internalID: 7367877064611438602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 27
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a831088273917a810800000000000000
+      internalID: 1776416302714327946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_47
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 27
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3b7516e70f5bc90800000000000000
+      internalID: -7154548007418481748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_48
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 23
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898f3d3b36939f500800000000000000
+      internalID: 430438339772151960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_49
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 23
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d50fde6da7b5200800000000000000
+      internalID: 169864474490068382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_50
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 31
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fbeccf62984b4d0800000000000000
+      internalID: -3119717841317740780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XiaoyuePortrait_51
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 15
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec04039a5eaac1550800000000000000
+      internalID: 6132964695934517454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      XiaoyuePortrait_0: 1792176228784391764
+      XiaoyuePortrait_1: 1135957843038022766
+      XiaoyuePortrait_10: -2639677852484478641
+      XiaoyuePortrait_11: 7640603097532776600
+      XiaoyuePortrait_12: 7821194814515821868
+      XiaoyuePortrait_13: 3120311331716287670
+      XiaoyuePortrait_14: 8509453093419996299
+      XiaoyuePortrait_15: -63558312917664990
+      XiaoyuePortrait_16: 2883163925571358632
+      XiaoyuePortrait_17: 8101199456082328863
+      XiaoyuePortrait_18: -6592310569654874506
+      XiaoyuePortrait_19: 6062155402584912476
+      XiaoyuePortrait_2: -7363626362179868184
+      XiaoyuePortrait_20: 1043578289696836697
+      XiaoyuePortrait_21: 4575701855299884967
+      XiaoyuePortrait_22: 442931058245485630
+      XiaoyuePortrait_23: 956413562048112514
+      XiaoyuePortrait_24: 3874657856878471200
+      XiaoyuePortrait_25: 1221163318064018819
+      XiaoyuePortrait_26: 5088437340377541633
+      XiaoyuePortrait_27: 7122076860260033016
+      XiaoyuePortrait_28: 2252201743656969386
+      XiaoyuePortrait_29: -8980650978828384505
+      XiaoyuePortrait_3: 3872725375733335020
+      XiaoyuePortrait_30: 54877115426429917
+      XiaoyuePortrait_31: 6399589510745890161
+      XiaoyuePortrait_32: -2351760308460170305
+      XiaoyuePortrait_33: -6707262494882761461
+      XiaoyuePortrait_34: -6001900070086698207
+      XiaoyuePortrait_35: -8830342715635962994
+      XiaoyuePortrait_36: 956698075755645092
+      XiaoyuePortrait_37: 6866183852448943000
+      XiaoyuePortrait_38: -6862374535430521238
+      XiaoyuePortrait_39: 316912509784814330
+      XiaoyuePortrait_4: -5381751181520410059
+      XiaoyuePortrait_40: -7755092516928160034
+      XiaoyuePortrait_41: 4066896586882448286
+      XiaoyuePortrait_42: -4634281915995937483
+      XiaoyuePortrait_43: -1574012123889666008
+      XiaoyuePortrait_44: -6744027959765432170
+      XiaoyuePortrait_45: 7367877064611438602
+      XiaoyuePortrait_46: 1776416302714327946
+      XiaoyuePortrait_47: -7154548007418481748
+      XiaoyuePortrait_48: 430438339772151960
+      XiaoyuePortrait_49: 169864474490068382
+      XiaoyuePortrait_5: 6738847772079987836
+      XiaoyuePortrait_50: -3119717841317740780
+      XiaoyuePortrait_51: 6132964695934517454
+      XiaoyuePortrait_6: -8315683253036453237
+      XiaoyuePortrait_7: 3194906143947345072
+      XiaoyuePortrait_8: -2438115340484862310
+      XiaoyuePortrait_9: 1024972069762617516
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
