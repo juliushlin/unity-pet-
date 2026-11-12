@@ -27,4 +27,3 @@
 
 [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) 是第三方集成，固定 v10.0.0，嵌入包保留 MIT 上游许可证。Unity Pipeline 是备用开发通道。
 
-角色图集为基于用户视觉参考生成的插画，没有导入游戏提取模型。原始参考图片、账号凭据、用户对话与缓存不包含在发布源码中。项目公开可见不等于授予全部美术素材无限使用许可。
