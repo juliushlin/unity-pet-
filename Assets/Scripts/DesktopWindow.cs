@@ -25,9 +25,39 @@ public static class DesktopWindow
     [DllImport("user32.dll",CharSet=CharSet.Unicode)] static extern bool AppendMenu(IntPtr menu,uint flags,UIntPtr id,string text);
     [DllImport("user32.dll")] static extern int TrackPopupMenu(IntPtr menu,uint flags,int x,int y,int reserved,IntPtr window,IntPtr rect);
     [DllImport("user32.dll")] static extern bool DestroyMenu(IntPtr menu);
+    [DllImport("user32.dll")] static extern IntPtr GetForegroundWindow();
+    [DllImport("user32.dll")] static extern bool IsIconic(IntPtr window);
+    [DllImport("user32.dll")] static extern bool ShowWindow(IntPtr window, int command);
+    static IntPtr ownerWindow;
+    static bool shown = true;
+    public static bool FollowEditor(int ownerPid)
+    {
+        if (ownerPid <= 0 || hwnd == IntPtr.Zero) return true;
+        if (ownerWindow == IntPtr.Zero)
+            EnumWindows((window, arg) => {
+                GetWindowThreadProcessId(window, out uint pid);
+                if (pid == ownerPid && IsWindowVisible(window)) { ownerWindow = window; return false; }
+                return true;
+            }, IntPtr.Zero);
+        GetWindowThreadProcessId(GetForegroundWindow(), out uint activePid);
+        bool visible = ownerWindow != IntPtr.Zero && !IsIconic(ownerWindow)
+            && (activePid == ownerPid || activePid == System.Diagnostics.Process.GetCurrentProcess().Id);
+        if (visible != shown) { ShowWindow(hwnd, visible ? 4 : 0); shown = visible; }
+        return visible;
+    }
+    public static void EntrancePosition(float progress, float bounce)
+    {
+        float centerX = Screen.currentResolution.width * .5f - 260;
+        float centerY = Screen.currentResolution.height * .5f - 285;
+        float rightX = Mathf.Max(0, Screen.currentResolution.width - 550);
+        float rightY = Mathf.Max(0, Screen.currentResolution.height - 880);
+        SetWindowPos(hwnd, new IntPtr(-1), (int)Mathf.Lerp(centerX, rightX, progress),
+            (int)(Mathf.Lerp(centerY, rightY, progress) - bounce), 0, 0, 0x15);
+    }
     static IntPtr hwnd; static Point anchor; static Rect origin;
     public static void Setup(){uint id=(uint)System.Diagnostics.Process.GetCurrentProcess().Id;EnumWindows((w,a)=>{GetWindowThreadProcessId(w,out var p);if(p==id&&IsWindowVisible(w)){hwnd=w;return false;}return true;},IntPtr.Zero);if(hwnd==IntPtr.Zero){Debug.LogError("Pet window not found");return;} SetWindowLong(hwnd,-16,unchecked((int)0x80000000));int ext=GetWindowLong(hwnd,-20)|0x80000;bool inspect=Array.IndexOf(Environment.GetCommandLineArgs(),"--show-in-taskbar")>=0;ext=inspect?(ext&~0x80)|0x40000:ext|0x80;SetWindowLong(hwnd,-20,ext); var m=new Margins{left=-1,right=-1,top=-1,bottom=-1};int dwm=DwmExtendFrameIntoClientArea(hwnd,ref m);bool layered=SetLayeredWindowAttributes(hwnd,0,255,1); SetWindowPos(hwnd,new IntPtr(-1),Math.Max(0,Screen.currentResolution.width-550),Math.Max(0,Screen.currentResolution.height-880),520,820,0x40|0x20);Debug.Log("Pet transparent window: hwnd="+hwnd+", DWM="+dwm+", layered="+layered);}
     public static void BeginDrag(){GetCursorPos(out anchor);GetWindowRect(hwnd,out origin);}
     public static void Drag(ref bool moved){GetCursorPos(out var p); int dx=p.x-anchor.x,dy=p.y-anchor.y;if(Math.Abs(dx)+Math.Abs(dy)>8)moved=true;if(moved)SetWindowPos(hwnd,new IntPtr(-1),origin.left+dx,origin.top+dy,0,0,0x11);}
     public static int Menu(){var menu=CreatePopupMenu(); string[] labels={"陪伴","挥挥手","开心跳跳","害羞","打个小盹","摸摸头"};for(int i=0;i<6;i++)AppendMenu(menu,0,(UIntPtr)(i+1),labels[i]);AppendMenu(menu,0x800,UIntPtr.Zero,null);AppendMenu(menu,0,(UIntPtr)99,"退出桌宠");GetCursorPos(out var p);int r=TrackPopupMenu(menu,0x100|2,p.x,p.y,0,hwnd,IntPtr.Zero);DestroyMenu(menu);return r;}
 }
+

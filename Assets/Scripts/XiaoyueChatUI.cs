@@ -18,7 +18,6 @@ public class XiaoyueChatUI:MonoBehaviour
         if(EventSystem.current==null){var e=new GameObject("XiaoyueEventSystem",typeof(EventSystem),typeof(InputSystemUIInputModule));e.GetComponent<InputSystemUIInputModule>().AssignDefaultActions();}
         var canvas=new GameObject("XiaoyueConversation",typeof(RectTransform),typeof(Canvas),typeof(UnityEngine.UI.CanvasScaler),typeof(UnityEngine.UI.GraphicRaycaster));canvas.transform.SetParent(transform,false);canvas.GetComponent<Canvas>().renderMode=RenderMode.ScreenSpaceOverlay;canvas.GetComponent<Canvas>().sortingOrder=50;
         var scaler=canvas.GetComponent<UnityEngine.UI.CanvasScaler>();scaler.uiScaleMode=UnityEngine.UI.CanvasScaler.ScaleMode.ScaleWithScreenSize;scaler.referenceResolution=new Vector2(WindowWidth,WindowHeight);scaler.matchWidthOrHeight=.5f;
-        Text("PetName",canvas.transform,"小月",160,8,200,30,20,Scarlet,true).alignment=TextAnchor.MiddleCenter;
         pencil=Rect("PencilToggle",canvas.transform,130,535,260,50);var bg=pencil.gameObject.AddComponent<UnityEngine.UI.Image>();bg.sprite=Round();bg.type=UnityEngine.UI.Image.Type.Sliced;bg.color=Cream;
         var button=pencil.gameObject.AddComponent<UnityEngine.UI.Button>();button.targetGraphic=bg;button.onClick.AddListener(Toggle);
         var icon=Rect("PencilIcon",pencil,18,12,25,25).gameObject.AddComponent<PencilIconGraphic>();icon.color=Scarlet;icon.raycastTarget=false;
@@ -60,4 +59,5 @@ public class XiaoyueChatUI:MonoBehaviour
     static Sprite rounded;
     static Sprite Round(){if(rounded)return rounded;int n=40;var t=new Texture2D(n,n,TextureFormat.RGBA32,false);t.name="XiaoyueRoundedPanel";for(int y=0;y<n;y++)for(int x=0;x<n;x++){float dx=Mathf.Max(12-x,x-(n-13)),dy=Mathf.Max(12-y,y-(n-13));float d=Mathf.Sqrt(Mathf.Max(0,dx)*Mathf.Max(0,dx)+Mathf.Max(0,dy)*Mathf.Max(0,dy));t.SetPixel(x,y,new Color(1,1,1,Mathf.Clamp01(12.5f-d)));}t.Apply();rounded=Sprite.Create(t,new Rect(0,0,n,n),new Vector2(.5f,.5f),100,0,SpriteMeshType.FullRect,new Vector4(14,14,14,14));return rounded;}
 }
+
 

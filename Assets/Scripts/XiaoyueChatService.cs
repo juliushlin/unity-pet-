@@ -44,7 +44,7 @@ public static class XiaoyueChatService
         if(!Directory.Exists(Path.Combine(root,"Assets")))throw new DirectoryNotFoundException("请先打开要协作的 Unity 项目喔。");
         var previous=Poll(root);if(previous!=null&&!previous.done)throw new InvalidOperationException("小月还在处理上一条要求，请稍等或先停止呀。");
         string node=ResolveExecutable("node.exe"),codex=ResolveExecutable("codex.exe"),unity=ResolveExecutable("unity.exe");
-        string runner=Path.Combine(root,"Tools","codex-bridge.js");if(!File.Exists(runner))throw new FileNotFoundException("缺少小月的对话连接程序，请检查项目安装。",runner);
+        string runner=Environment.GetEnvironmentVariable("XIAOYUE_BRIDGE_PATH");if(string.IsNullOrEmpty(runner))runner=Path.Combine(root,"Tools","codex-bridge.js");if(!File.Exists(runner))throw new FileNotFoundException("缺少小月的对话连接程序，请检查项目安装。",runner);
         Directory.CreateDirectory(Path.Combine(root,"Library"));Directory.CreateDirectory(Path.GetDirectoryName(ActivePath(root)));
         if(File.Exists(ActivePath(root)))File.Delete(ActivePath(root));
         // Reserve the single shared task before launching a process.
@@ -66,3 +66,4 @@ public static class XiaoyueChatService
         File.WriteAllText(Path.Combine(a.folder,"status.json"),JsonUtility.ToJson(new Job{done=true,exitCode=130,activity="已停止",reply="主人，小月停下啦。已经完成的项目修改会保留。"}),new UTF8Encoding(false));
     }
 }
+

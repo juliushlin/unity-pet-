@@ -11,7 +11,6 @@ public class XiaoyueStudio:EditorWindow
     public void CreateGUI()
     {
         var r=rootVisualElement;r.Clear();r.style.flexDirection=FlexDirection.Column;r.style.backgroundColor=new Color(.98f,.955f,.93f);r.style.paddingLeft=18;r.style.paddingRight=18;r.style.paddingTop=8;r.style.paddingBottom=12;
-        var title=new Label("小月");title.style.fontSize=22;title.style.unityTextAlign=TextAnchor.MiddleCenter;title.style.color=new Color(.67f,.1f,.21f);r.Add(title);
         portrait=new Image{scaleMode=ScaleMode.ScaleToFit};portrait.style.flexGrow=1;portrait.style.minHeight=250;r.Add(portrait);
         var pencil=new Button(Toggle);pencil.style.height=46;pencil.style.flexShrink=0;pencil.style.marginLeft=38;pencil.style.marginRight=38;pencil.style.backgroundColor=new Color(1,.98f,.945f);pencil.style.flexDirection=FlexDirection.Row;pencil.style.borderTopLeftRadius=pencil.style.borderTopRightRadius=pencil.style.borderBottomLeftRadius=pencil.style.borderBottomRightRadius=15;
         var icon=new PencilToggleIcon();icon.style.width=26;icon.style.height=26;icon.style.marginLeft=15;icon.style.marginTop=8;pencil.Add(icon);toggleText=new Label("主人，写下一个灵感…");toggleText.style.color=new Color(.48f,.17f,.25f);toggleText.style.marginLeft=12;toggleText.style.marginTop=12;pencil.Add(toggleText);r.Add(pencil);
@@ -39,3 +38,4 @@ public class PencilToggleIcon:VisualElement
 {
     public PencilToggleIcon(){pickingMode=PickingMode.Ignore;generateVisualContent+=ctx=>{var p=ctx.painter2D;p.strokeColor=new Color(.67f,.1f,.21f);p.lineWidth=2;p.BeginPath();p.MoveTo(new Vector2(9,4));p.LineTo(new Vector2(5,4));p.LineTo(new Vector2(3,7));p.LineTo(new Vector2(3,22));p.LineTo(new Vector2(21,22));p.LineTo(new Vector2(23,19));p.LineTo(new Vector2(23,15));p.Stroke();p.BeginPath();p.MoveTo(new Vector2(8,17));p.LineTo(new Vector2(10,12));p.LineTo(new Vector2(21,2));p.LineTo(new Vector2(25,6));p.LineTo(new Vector2(14,16));p.ClosePath();p.Stroke();};}
 }
+

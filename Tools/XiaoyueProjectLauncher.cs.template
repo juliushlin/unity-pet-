@@ -1,0 +1,35 @@
+using System;
+using System.Diagnostics;
+using System.IO;
+using UnityEditor;
+using UnityEngine;
+
+[InitializeOnLoad]
+public static class XiaoyueProjectLauncher
+{
+    [Serializable] class Settings { public string executable; public string bridge; }
+    static XiaoyueProjectLauncher() { EditorApplication.delayCall += Open; }
+    [MenuItem("小月/打开桌面小月")]
+    public static void Open()
+    {
+        if (Application.isBatchMode || EditorApplication.isCompiling || EditorApplication.isUpdating) return;
+        string file = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Xiaoyue", "launcher.json");
+        if (!File.Exists(file)) { UnityEngine.Debug.LogWarning("请先安装小月全局启动器。"); return; }
+        var settings = JsonUtility.FromJson<Settings>(File.ReadAllText(file));
+        if (!File.Exists(settings.executable)) { UnityEngine.Debug.LogWarning("找不到小月程序，请检查全局安装路径。"); return; }
+        int owner = Process.GetCurrentProcess().Id;
+        string project = Path.GetFullPath(Path.Combine(Application.dataPath, ".."));
+        string pidFile = Path.Combine(project, "Library", "Xiaoyue-desktop.pid");
+        if (File.Exists(pidFile) && int.TryParse(File.ReadAllText(pidFile), out int existing))
+        {
+            try { var process = Process.GetProcessById(existing);
+                if (!process.HasExited && string.Equals(process.MainModule.FileName,settings.executable,StringComparison.OrdinalIgnoreCase)) return;
+            } catch (ArgumentException) {} catch (InvalidOperationException) {}
+        }
+        var info = new ProcessStartInfo(settings.executable, "--unity-owner-pid " + owner + " --unity-project \"" + project + "\"")
+        { UseShellExecute = false, CreateNoWindow = true, WorkingDirectory = Path.GetDirectoryName(settings.executable) };
+        info.EnvironmentVariables["XIAOYUE_BRIDGE_PATH"] = settings.bridge;
+        var pet = Process.Start(info);
+        File.WriteAllText(pidFile, pet.Id.ToString());
+    }
+}

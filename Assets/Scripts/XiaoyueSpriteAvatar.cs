@@ -31,6 +31,15 @@ public class XiaoyueSpriteAvatar:MonoBehaviour
         transform.localRotation=Quaternion.Euler(-LookDown*2,Mathf.Sin(time*.75f)*2.5f,Mathf.Sin(time*1.5f)*.8f+(pose==3?2:0));
         float breath=1+Mathf.Sin(time*1.5f)*.008f;transform.localScale=new Vector3(pop/breath,pop*breath,1);
     }
+    public void SetEntranceReveal(float minimumY)
+    {
+        var renderer = GetComponent<MeshRenderer>();
+        var properties = new MaterialPropertyBlock();
+        renderer.GetPropertyBlock(properties);
+        properties.SetFloat("_RevealMinY", minimumY);
+        renderer.SetPropertyBlock(properties);
+    }
     void OnDestroy(){if(mesh){if(Application.isPlaying)Destroy(mesh);else DestroyImmediate(mesh);}}
 }
+
 

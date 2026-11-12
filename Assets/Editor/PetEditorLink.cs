@@ -17,7 +17,7 @@ public static class PetEditorLink
     static void Update()
     {
         if(EditorApplication.timeSinceStartup<next)return;next=EditorApplication.timeSinceStartup+.35;
-        if(!Application.isBatchMode&&!EditorApplication.isCompiling&&!EditorApplication.isUpdating&&!SessionState.GetBool(Building,false)&&!SessionState.GetBool(Launched,false)&&File.Exists(Exe))StartPet();
+        if(!File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),"Xiaoyue","global-enabled"))&&!Application.isBatchMode&&!EditorApplication.isCompiling&&!EditorApplication.isUpdating&&!SessionState.GetBool(Building,false)&&!SessionState.GetBool(Launched,false)&&File.Exists(Exe))StartPet();
         string request=Path.Combine(DesktopPetStudio.Root,"Temp","PetChat.request");
         if(File.Exists(request))try{File.Delete(request);DesktopPetStudio.Open();}catch(IOException){}
     }
@@ -40,3 +40,4 @@ public static class PetEditorLink
 }
 
 public class PetCompanionDock:EditorWindow {public static void Open(){XiaoyueStudio.Open();}}
+
