@@ -8,7 +8,7 @@ public class MoonlitPet:MonoBehaviour
     readonly PetMotion motion=new PetMotion();public PetMotion.Mode CurrentState=>motion.State;
     public string ProjectRoot{get;private set;}public XiaoyueSpriteAvatar Avatar=>avatar;
     XiaoyueSpriteAvatar avatar;XiaoyueChatUI chat;int ownerPid,clickIndex;float lastInteraction,nextOwnerCheck,pressedAt;Vector2 pressed;bool holding,dragged;
-    float entranceAge; bool entranceComplete;
+    float entranceAge; bool entranceComplete; XiaoyueEntranceAnimation entrance;
     void Start()
     {
         Application.runInBackground=true;Application.targetFrameRate=30;var args=Environment.GetCommandLineArgs();
@@ -19,7 +19,13 @@ public class MoonlitPet:MonoBehaviour
         avatar=new GameObject("小月 · 原画动态").AddComponent<XiaoyueSpriteAvatar>();avatar.transform.SetParent(transform,false);avatar.Initialize();
         lastInteraction=Time.unscaledTime;motion.Open(lastInteraction);chat=new GameObject("小月 · 脚下铅笔聊天").AddComponent<XiaoyueChatUI>();chat.Create(ProjectRoot);
 #if UNITY_STANDALONE_WIN && !UNITY_EDITOR
-        DesktopWindow.Setup(); DesktopWindow.EntrancePosition(0,0); chat.gameObject.SetActive(false);
+        entrance = new GameObject("小月 · 扒边与侧跑出场").AddComponent<XiaoyueEntranceAnimation>();
+        entrance.transform.SetParent(transform,false);
+        entrance.Initialize();
+        avatar.gameObject.SetActive(false);
+        DesktopWindow.Setup();
+        DesktopWindow.EntrancePosition(0,0);
+        chat.gameObject.SetActive(false);
 #endif
     }
     public void SetPose(int value,bool voice=true){lastInteraction=Time.unscaledTime;motion.React(Mathf.Clamp(value,0,5),lastInteraction);pose=motion.Pose;}
@@ -34,19 +40,13 @@ public class MoonlitPet:MonoBehaviour
         {
             entranceAge += Time.unscaledDeltaTime;
             float age = entranceAge;
-            bool running = age > 2.1f;
-            avatar.Animate(PetMotion.Mode.Idle, running ? 2 : 0, age, t, false, Time.unscaledDeltaTime);
-            // Peek through a horizontal opening before springing onto the desktop.
-            float reveal = age < 1.1f ? Mathf.Lerp(2.15f,1.2f,Mathf.SmoothStep(0,1,age/1.1f))
-                : Mathf.Lerp(1.2f,-3,Mathf.Clamp01((age-1.1f)/.65f));
-            avatar.SetEntranceReveal(reveal);
-            float leap = age >= 1.1f && age < 2.1f ? Mathf.Sin((age-1.1f)*Mathf.PI)*100 : 0;
-            float run = Mathf.SmoothStep(0,1,Mathf.Clamp01((age-2.1f)/1.5f));
-            DesktopWindow.EntrancePosition(run, leap + (running ? Mathf.Abs(Mathf.Sin(age*17))*12 : 0));
-            if (running) avatar.transform.localRotation = Quaternion.Euler(0,-8,Mathf.Sin(age*17)*5);
-            if (age >= 3.6f)
+            entrance.Sample(age);
+            DesktopWindow.EntrancePosition(XiaoyueEntranceAnimation.TravelProgress(age),0);
+            if (age >= XiaoyueEntranceAnimation.Duration)
             {
                 entranceComplete = true;
+                Destroy(entrance.gameObject);
+                avatar.gameObject.SetActive(true);
                 avatar.SetEntranceReveal(-100);
                 DesktopWindow.EntrancePosition(1,0);
                 chat.gameObject.SetActive(true);
@@ -80,4 +80,5 @@ public class MoonlitPet:MonoBehaviour
     }
     bool Hit(Vector2 p){return Physics.Raycast(Camera.main.ScreenPointToRay(p),out var hit,100)&&hit.transform.IsChildOf(avatar.transform);}
 }
+
 
